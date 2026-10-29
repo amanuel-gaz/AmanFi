@@ -6,7 +6,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 const API_KEY = process.env.GEMINI_API_KEY;
-const MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 
 app.use(cors({
   origin: ['http://127.0.0.1:3000', 'http://localhost:3000']
