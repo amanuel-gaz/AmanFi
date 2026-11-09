@@ -130,7 +130,7 @@
 
          addMessage('Thinking...', 'assistant');
 
-    fetch('http://127.0.0.1:3001/api/chat', {
+    fetch('https://amanfi.onrender.com/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message })

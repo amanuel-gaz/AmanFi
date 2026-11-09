@@ -5,3 +5,9 @@ server/.env
 android/.gradle/
 android/build/
 android/app/build/
+
+# Backup and temporary files
+*.backup
+*.bak
+*.bak*
+*.before-*
